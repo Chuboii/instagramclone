@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <!--@bootstrapCss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <a href="main.html"></a>
+    <a href="signup.html"> </a>
+</head>
+<body>
+<div id="app">
+    <div id="loading-box"><i class="fa fa-instagram"></i></div>
+<div id="lang"> 
+<input id="search-el" type="search" list ="lang-list" placeholder="English">
+
+<i class="fa fa-angle-left"> </i>
+
+<datalist id="lang-list">
+<option value="English">  </option>
+
+<option value="Afrikaans"> </option>
+<option value="Espanol"> Spanish </option>
+<option value="French"> Francais </option>
+<option value="Deutsche"> German</option>
+<option value="Italiano"> Italy</option>
+<option value="Portuguese"> Portugal</option>
+<option value="Chinese"> China </option>
+<option value="British"> UK </option>
+<option value="Polski"> Polish </option>
+<option value="Japanese"> Japan </option>
+<option value="Korean"> Korean </option>
+<option value="Dansk"> Danish </option>
+</datalist>
+</div>
+<div id="alert-box"> <h3 id="warning">WARNING!</h3> <p id="must-input">No input was received!</p><button id="ok" onclick = "okay()">Cancel</button></div>
+<div id="logo"> 
+<h1 id="logo-text"> Instagram </h1>
+
+</div>
+
+<div id="login-form">
+<div id="login-formm">
+<input id="username" type="text" placeholder="Phone number, email or username" autocomplete = "on">
+<p id="username-error"></p>
+<input id="password" type="password" placeholder ="Password">
+<p id="password-error"></p>
+<button id="login-btn" onclick="loginn()"> Login</button>
+
+<p id="forgot-details"> Forgot your login details? <span id="help"> Get help logging in. </span > </p>
+<div id ="horizontal"> <div id="h1"></div> OR <div id="h2"> </div> </div>
+<button id="facebook-btn"> <a style = "text-decoration: none; color:aliceblue;" href="https://facebook.com"><span id="facebook-icon"> <i class="fa fa-facebook"> </i> <p id="continue-text">Continue with Facebook</p> </a></button>
+</div>
+</div>
+<div id="hr3"> </div>
+<div id="create-account">
+<p id="no-account"> Don't have an account? <span id="sign-up" onclick = "signupEl()"> <a href="" style="text-decoration:none;" onclick="signNext()">Sign up.</a> </span> </p>
+</div>
+</div>
+
+
+
+<!--main js-->
+<script src="js/main.js"></script>
+</body>
+</html>

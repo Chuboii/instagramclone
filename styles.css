@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+}
+.swiper-slide{
+    width: 100px;
+    height: 100px;
+    border: 2.5px solid orangered;
+    border-radius: 100%;
+}
